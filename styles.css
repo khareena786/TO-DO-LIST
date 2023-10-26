@@ -1,0 +1,75 @@
+body {
+  /* styling the body part */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /* adding a background image  */
+  background-image: url("https://images.unsplash.com/photo-1474859569645-e0def92b02bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cm91dGluZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60");
+  background-repeat: no-repeat; /* no repetition for the image*/
+  background-size: cover;
+  
+}
+
+.container {
+  /* styling the container part */
+  background-color: transparent;
+  color:white;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  /* adjusting the text to center */
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  /* styling the button */
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  /* to remove bullet points using style type none */
+  padding: 0;
+}
+
+li {
+  display: flex;
+  /* using flex here inorder to adjust according to the screen sizes and length */
+  align-items: center;
+  margin: 10px 0;
+}
+
+/* clicking on the checkbox gives the below styling */
+.completed {
+  text-decoration: line-through;
+  color: #888;
+  background-color: #d3ffd3; 
+  /* background color for completed tasks */
+}
+
+/* styling delete text in the to do list */
+.delete {
+  color: red;
+  margin-left: auto;
+  cursor: pointer;
+  text-decoration: none;
+}

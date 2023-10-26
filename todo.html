@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO LIST</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="exam.js"></script> 
+</head>
+<body>
+    <!-- create a container class -->
+    <div class="container">
+        <h1>TO-DO LIST</h1>
+        <!-- here taskInput give unique identifier to the input element -->
+        <input type="text" id="taskInput" placeholder="NEW TASK"></input>
+        <!-- Adding a button element to add lists -->
+        <button id="addTask">ADD</button>
+        <!-- unordered lists to display the content -->
+        <ul id ="taskList">
+            <!-- checkbox is used to check the lists which are completed  -->
+             <li> Reading Books<input type="checkbox"> <span class="delete">Delete</span></li> 
+             <!-- span class provides a clickable element that allows us to delete a task -->
+            <li> Watching TV<input type="checkbox"> <span class="delete">Delete</span></li>
+        </ul>
+
+    </div>
+</body>
+</html>
+
